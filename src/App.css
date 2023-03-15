@@ -1,0 +1,67 @@
+ *{
+  box-sizing: border-box;
+ }
+ body{
+  margin: 0px;
+  background-color: black;
+  padding: 20px;
+ }
+ .app-main{
+  background-color: white;
+  height: 400px;
+  max-width: 800px;
+  border-radius: 5px;
+  margin: 0px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .app-main-dice-container{
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap:20px;
+
+ }
+ .dice{
+  height: 50px;
+  width:50px;
+  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+
+ }
+ .dice-h2{
+    font-size: 2rem;
+ }
+ .app-button{
+    background-color: blue;
+    color: white;
+    margin: 40px;
+    height: 50px;
+    width:150px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .app-button:focus{
+    outline: none;
+ }
+ .app-button:active{
+    box-shadow: 5px 5px 5px -3px white;
+ }
+ .app-main-h1{
+    font-size: 40px;
+    color: red;
+    
+ }
+ .app-main-p{
+    width:55vw;
+    margin-bottom: 30px;
+ }
